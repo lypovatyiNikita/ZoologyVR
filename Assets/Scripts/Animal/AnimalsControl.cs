@@ -9,7 +9,19 @@ namespace ZoologyVR.Animals
     {
         public Transform AnimalSpawnRef;
         public AnimalUI[] AllAnimals;
+
         private Animal _currentAnimal;
+
+        public Animal GetCurrentAnimal
+		{
+			get
+			{
+                if (_currentAnimal == null)
+                    return null;
+
+                return _currentAnimal;
+			}
+		}
 
         public void ChangeCurrentAnimalAnimation(int index)
 		{
