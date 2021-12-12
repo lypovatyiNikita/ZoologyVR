@@ -7,10 +7,15 @@ namespace ZoologyVR.Animals
 	public class Animal : MonoBehaviour
 	{
 		public Animation AnimationRef;
+		public AnimationClip[] ClipsRef;
 
-		public void PlayOtherAnimation(AnimationClip clipRef)
+		public void PlayOtherAnimation(int index)
 		{
-			AnimationRef.Play(clipRef.name);
+			if (index < 0 || index > ClipsRef.Length - 1)
+				return;
+
+			AnimationRef.clip = ClipsRef[index];
+			AnimationRef.Play();
 		}
 	}
 }
