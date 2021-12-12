@@ -1,21 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ZoologyVR.UI;
 
 namespace ZoologyVR.Animals
 {
     public class AnimalsControl : MonoBehaviour
     {
         public Transform AnimalSpawnRef;
-
+        public AnimalUI[] AllAnimals;
         private Animal _currentAnimal;
 
-        public void ChangeCurrentAnimalAnimation(AnimationClip animationClipRef)
+        public void ChangeCurrentAnimalAnimation(int index)
 		{
             if (_currentAnimal == null)
                 return;
 
-            _currentAnimal.PlayOtherAnimation(animationClipRef);
+            _currentAnimal.PlayOtherAnimation(index);
 		}
 
         public void SpawnAnimal(Animal animalPref)
