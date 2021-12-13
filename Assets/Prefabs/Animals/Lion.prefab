@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!111 &5875407209030676569
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061870501530111071}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &4061870501636957650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4061870501636957651}
+  - component: {fileID: 6920780598096066432}
+  m_Layer: 0
+  m_Name: Lion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4061870501636957651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061870501636957650}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4061870501529750941}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &6920780598096066432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4061870501636957650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d8c6753bfb50d43a1295ba8ff42873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: "\u041B\u0435\u0432 \u2014 \u0432\u0438\u0434 \u0445\u0438\u0436\u0438\u0445
+    \u0441\u0441\u0430\u0432\u0446\u0456\u0432 \u0437 \u0440\u043E\u0434\u0443 \u043F\u0430\u043D\u0442\u0435\u0440
+    \u0440\u043E\u0434\u0438\u043D\u0438 \u043A\u043E\u0442\u043E\u0432\u0438\u0445.
+    \u0426\u0435 \u0434\u0440\u0443\u0433\u0438\u0439 \u0437\u0430 \u0432\u0435\u043B\u0438\u0447\u0438\u043D\u043E\u044E
+    \u0432\u0438\u0434 \u0440\u043E\u0434\u0438\u043D\u0438 \u043F\u0456\u0441\u043B\u044F
+    \u0442\u0438\u0433\u0440\u0430. \u0421\u0430\u043C\u0446\u0456, \u044F\u043A\u0456
+    \u0432\u043F\u0456\u0437\u043D\u0430\u0432\u0430\u043D\u0456 \u0437\u0430 \u0433\u0440\u0438\u0432\u043E\u044E,
+    \u043C\u0430\u044E\u0442\u044C \u0432\u0430\u0433\u0443 \u0432\u0456\u0434 150
+    \u0434\u043E 250 \u043A\u0433; \u043D\u0430\u0442\u043E\u043C\u0456\u0441\u0442\u044C
+    \u0441\u0430\u043C\u0438\u0446\u0456 \u0432\u0430\u0436\u0430\u0442\u044C \u0432\u0456\u0434
+    120 \u0434\u043E 150 \u043A\u0433. \u0421\u0443\u0447\u0430\u0441\u043D\u0438\u0439
+    \u0430\u0440\u0435\u0430\u043B \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442\u043E\u0432\u0430\u043D\u0438\u0439,
+    \u043B\u0435\u0436\u0438\u0442\u044C \u043D\u0430 \u043F\u0456\u0432\u0434\u0435\u043D\u044C
+    \u0432\u0456\u0434 \u0421\u0430\u0445\u0430\u0440\u0438, \u0442\u0430\u043A\u043E\u0436
+    \u0454 \u043E\u0434\u043D\u0430 \u043D\u0435\u0432\u0435\u043B\u0438\u043A\u0430
+    \u043F\u043E\u043F\u0443\u043B\u044F\u0446\u0456\u044F \u043D\u0430 \u043F\u0456\u0432\u043D\u0456\u0447\u043D\u043E\u043C\u0443
+    \u0437\u0430\u0445\u043E\u0434\u0456 \u0406\u043D\u0434\u0456\u0457. \u0423 \u0434\u0438\u043A\u0456\u0439
+    \u043F\u0440\u0438\u0440\u043E\u0434\u0456 \u043B\u0435\u0432\u0438 \u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u0430
+    \u0442\u0440\u0438\u0432\u0430\u043B\u0456\u0441\u0442\u044C \u0436\u0438\u0442\u0442\u044F
+    \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C 14 \u0440\u043E\u043A\u0456\u0432,
+    \u0443 \u043D\u0435\u0432\u043E\u043B\u0456 \u2014 30 \u0440\u043E\u043A\u0456\u0432.
+    \u041D\u0430 \u0432\u0456\u0434\u043C\u0456\u043D\u0443 \u0432\u0456\u0434 \u0456\u043D\u0448\u0438\u0445
+    \u0432\u0438\u0434\u0456\u0432 \u043A\u043E\u0442\u0456\u0432, \u043B\u0435\u0432\u0438
+    \u0454 \u0441\u043E\u0446\u0456\u0430\u043B\u044C\u043D\u0438\u043C\u0438. \u0413\u0440\u0443\u043F\u0430
+    \u043B\u0435\u0432\u0438\u0446\u044C \u0437\u0430\u0437\u0432\u0438\u0447\u0430\u0439
+    \u043F\u043E\u043B\u044E\u0454 \u0440\u0430\u0437\u043E\u043C, \u043D\u0430\u043F\u0430\u0434\u0430\u044E\u0447\u0438
+    \u043D\u0430 \u0432\u0435\u043B\u0438\u043A\u0438\u0445 \u043A\u043E\u043F\u0438\u0442\u043D\u0438\u0445.
+    \u041B\u0435\u0432 \u0454 \u0432\u0440\u0430\u0437\u043B\u0438\u0432\u0438\u043C
+    \u0432\u0438\u0434\u043E\u043C, \u043E\u0441\u043A\u0456\u043B\u044C\u043A\u0438
+    \u0432\u0432\u0430\u0436\u0430\u0454\u0442\u044C\u0441\u044F, \u0449\u043E \u043F\u043E\u043F\u0443\u043B\u044F\u0446\u0456\u044F
+    \u043B\u0435\u0432\u0456\u0432 \u0437\u0430\u0437\u043D\u0430\u043B\u0430 \u0437\u043C\u0435\u043D\u0448\u0435\u043D\u043D\u044F
+    \u043F\u0440\u0438\u0431\u043B\u0438\u0437\u043D\u043E \u043D\u0430 43% \u0437\u0430
+    21 \u0440\u0456\u043A (\u043F\u0440\u0438\u0431\u043B\u0438\u0437\u043D\u043E
+    \u0442\u0440\u0438 \u043F\u043E\u043A\u043E\u043B\u0456\u043D\u043D\u044F \u043B\u0435\u0432\u0456\u0432,
+    1993\u20132014). \u041D\u0430\u0439\u0431\u0456\u043B\u044C\u0448\u0438\u043C\u0438
+    \u043F\u0440\u0438\u0447\u0438\u043D\u0430\u043C\u0438 \u0437\u043C\u0435\u043D\u0448\u0435\u043D\u043D\u044F
+    \u0447\u0438\u0441\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0456 \u043B\u0435\u0432\u0456\u0432
+    \u0454 \u0432\u0442\u0440\u0430\u0442\u0430 \u0441\u0435\u0440\u0435\u0434\u043E\u0432\u0438\u0449\u0430
+    \u043F\u0440\u043E\u0436\u0438\u0432\u0430\u043D\u043D\u044F \u0442\u0430 \u0437\u0456\u0442\u043A\u043D\u0435\u043D\u043D\u044F
+    \u0437 \u043B\u044E\u0434\u0438\u043D\u043E\u044E. \u041B\u0435\u0432 \u044F\u043A
+    \u0441\u0438\u043C\u0432\u043E\u043B \u0448\u0438\u0440\u043E\u043A\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0439
+    \u0443 \u043B\u044E\u0434\u0441\u044C\u043A\u0456\u0439 \u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0456;
+    \u0432\u0456\u043D \u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439
+    \u0443 \u0441\u043A\u0443\u043B\u044C\u043F\u0442\u0443\u0440\u0430\u0445 \u0442\u0430
+    \u043A\u0430\u0440\u0442\u0438\u043D\u0430\u0445, \u0433\u0435\u0440\u0431\u0430\u0445,
+    \u0444\u0456\u043B\u044C\u043C\u0430\u0445 \u0442\u0430 \u043B\u0456\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0456."
+  Type: 2
+  AnimationRef: {fileID: 5875407209030676569}
+  ClipsRef:
+  - {fileID: 7400000, guid: 54b47522f37c52949bc76a80ef93d3d8, type: 3}
+  - {fileID: 7400000, guid: bc29f6f2efd3781408f4ba620c25b303, type: 3}
+  - {fileID: 7400000, guid: fb0e0e2b9c35caf4f991fd922d6bba73, type: 3}
+  - {fileID: 7400000, guid: 674fcde3bb752f743b935e73a1472265, type: 3}
+  - {fileID: 7400000, guid: ebb7e1e181b8c824480f7a0dca5d825a, type: 3}
+  - {fileID: 7400000, guid: 7b400d6ad0bf3b846a4a74b2b3aa88f4, type: 3}
+  - {fileID: 7400000, guid: 3d894b06d68f2ed40becc674119e710f, type: 3}
+  - {fileID: 7400000, guid: 55d5c8947bd453642b68cc6cfdf88bc7, type: 3}
+  - {fileID: 7400000, guid: 50decb39861abac4295dbc1039179d08, type: 3}
+  - {fileID: 7400000, guid: 93a78e32a5cfd5e409b9d9b06df11bc4, type: 3}
+--- !u!1001 &4061870501530099031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4061870501636957651}
+    m_Modifications:
+    - target: {fileID: 119048, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_Name
+      value: SK_Lion_LEGACY
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9552086, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 69180139601453e4cabe50b190cd9874, type: 3}
+--- !u!1 &4061870501530111071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 119048, guid: 69180139601453e4cabe50b190cd9874,
+    type: 3}
+  m_PrefabInstance: {fileID: 4061870501530099031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4061870501529750941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 479434, guid: 69180139601453e4cabe50b190cd9874,
+    type: 3}
+  m_PrefabInstance: {fileID: 4061870501530099031}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!111 &4504126959016933732
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14690101491130715}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &1539948035148430687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622478411908224817}
+  - component: {fileID: 1715727746429011240}
+  m_Layer: 0
+  m_Name: Elephant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622478411908224817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539948035148430687}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 14690101490855071}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1715727746429011240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539948035148430687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d8c6753bfb50d43a1295ba8ff42873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: "\u0421\u043B\u043E\u043D \u2014 \u0437\u0430\u0433\u0430\u043B\u044C\u043D\u0430
+    \u043D\u0430\u0440\u043E\u0434\u043D\u0430 \u043D\u0430\u0437\u0432\u0430 \u0432\u0441\u0456\u0445
+    \u0441\u0443\u0447\u0430\u0441\u043D\u0438\u0445 \u0431\u0456\u043E\u043B\u043E\u0433\u0456\u0447\u043D\u0438\u0445
+    \u0432\u0438\u0434\u0456\u0432 \u0437 \u0440\u043E\u0434\u0438\u043D\u0438 \u0421\u043B\u043E\u043D\u043E\u0432\u0456
+    (Elephantidae). \u0421\u043B\u043E\u043D\u0438 \u043C\u0435\u0448\u043A\u0430\u044E\u0442\u044C
+    \u0443 \u0410\u0444\u0440\u0438\u0446\u0456 \u043D\u0430 \u043F\u0456\u0432\u0434\u0435\u043D\u044C
+    \u0432\u0456\u0434 \u0421\u0430\u0445\u0430\u0440\u0438 \u0442\u0430 \u0432 \u041F\u0456\u0432\u0434\u0435\u043D\u043D\u0456\u0439
+    \u0410\u0437\u0456\u0457. \u0426\u044F \u0433\u0440\u0443\u043F\u0430 \u0442\u0432\u0430\u0440\u0438\u043D
+    \u043C\u0430\u0454 \u0432\u0435\u043B\u0438\u0447\u0435\u0437\u043D\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F
+    \u0432 \u0456\u0441\u0442\u043E\u0440\u0456\u0457 \u0431\u0430\u0433\u0430\u0442\u044C\u043E\u0445
+    \u043D\u0430\u0440\u043E\u0434\u0456\u0432 \u0441\u0432\u0456\u0442\u0443 \u0456
+    \u043A\u0443\u043B\u044C\u0442\u0443\u0440."
+  Type: 2
+  AnimationRef: {fileID: 4504126959016933732}
+  ClipsRef:
+  - {fileID: 7400000, guid: e3d61a6c4c02eb5448cfe63b8a5e66ee, type: 3}
+  - {fileID: 7400000, guid: d4c006db2b8697f4584847af9c350d6d, type: 3}
+  - {fileID: 7400000, guid: 80986a94e05dbe345af7121cf1020f92, type: 3}
+  - {fileID: 7400000, guid: 5d9f93484c745304e920abd85b271d78, type: 3}
+  - {fileID: 7400000, guid: 31b617f9139522a40906d1e64cb3a7f6, type: 3}
+  - {fileID: 7400000, guid: 2e7e9ce2e43ef0e4582d5c784386ce57, type: 3}
+  - {fileID: 7400000, guid: 374f6b075fff6694096a932aaf45c3ce, type: 3}
+  - {fileID: 7400000, guid: bdd15dc3d7541774eadbbf5e26046eb9, type: 3}
+  - {fileID: 7400000, guid: 3c8dc72ac1a36d74abd192598ed6fe69, type: 3}
+  - {fileID: 7400000, guid: d2e467f15db9adc4ead35bd90cd402cc, type: 3}
+  - {fileID: 7400000, guid: a717906de4195d2469f4b7e83bbe99c3, type: 3}
+  - {fileID: 7400000, guid: ceb88a33c6f7d8c46afe66c4573b6a22, type: 3}
+--- !u!1001 &14690101490962099
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1622478411908224817}
+    m_Modifications:
+    - target: {fileID: 176104, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_Name
+      value: Elephant_LEGACY
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9586206, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 2482941675eb8d3499b711330215f8e3, type: 3}
+--- !u!1 &14690101491130715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176104, guid: 2482941675eb8d3499b711330215f8e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 14690101490962099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &14690101490855071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451116, guid: 2482941675eb8d3499b711330215f8e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 14690101490962099}
+  m_PrefabAsset: {fileID: 0}

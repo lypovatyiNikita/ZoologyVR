@@ -36,8 +36,9 @@ namespace ZoologyVR.Animals
 	public enum AnimalType
 	{
 		Fish = 0,
-		Forest = 1,
-		Dinosaur = 2,
-		MAX = 3
+		Dinosaur = 1,
+		African = 2,
+		Bird = 3,
+		MAX = 4
 	}
 }
