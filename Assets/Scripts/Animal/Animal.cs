@@ -7,6 +7,7 @@ namespace ZoologyVR.Animals
 	public class Animal : MonoBehaviour
 	{
 		public string Description;
+		public AnimalType Type;
 
 		[Space(10)]
 		public Animation AnimationRef;
@@ -30,5 +31,13 @@ namespace ZoologyVR.Animals
 
 			AnimationRef.Play(ClipsRef[index].name);
 		}
+	}
+
+	public enum AnimalType
+	{
+		Fish = 0,
+		Forest = 1,
+		Dinosaur = 2,
+		MAX = 3
 	}
 }
