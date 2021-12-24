@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3805231930067423908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3805231930067423909}
+  - component: {fileID: 3805231930067423906}
+  m_Layer: 0
+  m_Name: ProgramControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3805231930067423909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231930067423908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3805231930108764815}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3805231930067423906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231930067423908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a11f8ace8710c3438668eadb2263713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3805231930108764814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3805231930108764815}
+  m_Layer: 0
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3805231930108764815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231930108764814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3805231930067423909}
+  - {fileID: 3805231931613007867}
+  - {fileID: 3805231931278048669}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3805231931278048668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3805231931278048669}
+  - component: {fileID: 3805231931278048666}
+  m_Layer: 0
+  m_Name: UIControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3805231931278048669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231931278048668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3805231930108764815}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3805231931278048666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231931278048668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ae040827901343a7a45e66b749660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalsRef: {fileID: 3805231931613007864}
+  AnimalsButtonsContent: {fileID: 0}
+  AnimalUIViewPref: {fileID: 352580172797647346, guid: bd9f4cdcf3434c542be6402ce34f85bb,
+    type: 3}
+  AnimalsSortButtonsContent: {fileID: 0}
+  AnimalSortButtonPref: {fileID: 7442104218496434271, guid: adda76cc03070364180a70438a395a5e,
+    type: 3}
+  AnimationsPool: {fileID: 0}
+  AnimationUIPref: {fileID: 6068984701872401253, guid: 8171bfea0825f3041b8c706b3efe0d28,
+    type: 3}
+  DescriptionRef: {fileID: 0}
+--- !u!1 &3805231931613007866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3805231931613007867}
+  - component: {fileID: 3805231931613007864}
+  m_Layer: 0
+  m_Name: AnimalsControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3805231931613007867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231931613007866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3805231930108764815}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3805231931613007864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3805231931613007866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54b04c5b5c4a1b4fa47b47f84bacdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimalSpawnRef: {fileID: 0}
+  AllAnimals:
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0414\u0435\u0439\u043D\u043E\u043D\u0438\u0445"
+    AnimalRef: {fileID: 5071980487639903428, guid: b7e578a6adc3e8f44a7d5d221e884cad,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0410\u043B\u043E\u0437\u0430\u0432\u0440"
+    AnimalRef: {fileID: 744057978491402638, guid: e181d3a31b4500f4c8f2f4bd48489d51,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041A\u0440\u043E\u043A\u043E\u0434\u0438\u043B"
+    AnimalRef: {fileID: 5718435844550473494, guid: 4ae782e145ffd984884972fba219ac25,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0421\u043B\u043E\u043D"
+    AnimalRef: {fileID: 1715727746429011240, guid: aa9a1f5c7093b6146bb1a5acb3d9ea2b,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0413\u0438\u043F\u043E\u043F\u043E\u0442\u0430\u043C"
+    AnimalRef: {fileID: 3000432986809804090, guid: d9b0a53b1a7d27248a69c86ce27383cc,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041B\u0435\u0432"
+    AnimalRef: {fileID: 6920780598096066432, guid: b6cffcd750099fc4886ed8ea1e917ca5,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041B\u044C\u0432\u0438\u0446\u044F"
+    AnimalRef: {fileID: 1106982653087323728, guid: aaf2d3bedb4b0a446b45d7cfd0c4fee7,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041D\u043E\u0441\u043E\u0440\u0456\u0433"
+    AnimalRef: {fileID: 9061045075053706128, guid: 90cdc6459844c244b953d34b0e8e876c,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0417\u0435\u0431\u0440\u0430"
+    AnimalRef: {fileID: 4394492253408652931, guid: bfb247017bbd51b4f82a8a6b174fb91e,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041A\u0440\u0443\u043A"
+    AnimalRef: {fileID: 1506367766990442384, guid: f7854fe1037878c41b5fa239340758bd,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041A\u043E\u0440\u043E\u043F"
+    AnimalRef: {fileID: 389198034737500902, guid: 671df5662ef8d8f43984936fcfd6e589,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u0410\u043A\u0443\u043B\u0430"
+    AnimalRef: {fileID: 5045973759674333973, guid: 943b82ad86e12e54ba06f0b6e744fee0,
+      type: 3}
+  - Icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    Name: "\u041A\u0430\u043B\u044C\u043C\u0430\u0440"
+    AnimalRef: {fileID: 8593249789698679252, guid: 17d369ce1b0b47b498e3ada67c912f46,
+      type: 3}
