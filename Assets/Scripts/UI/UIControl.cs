@@ -14,15 +14,36 @@ namespace ZoologyVR.UI
         public Transform AnimalsButtonsContent;
 		public AnimalUIView AnimalUIViewPref;
 
+		public Transform AnimalsSortButtonsContent;
+		public AnimalSortUIView AnimalSortButtonPref;
+
 		public Transform AnimationsPool;
 		public AnimalAnimationUI AnimationUIPref;
 
-		public TextMeshProUGUI DescrptionRef;
+		public TextMeshProUGUI DescriptionRef;
 
 		private List<AnimalUIView> _allAnimalButtonsRef;
 		private List<AnimalAnimationUI> _allAnimalAnimationsRef;
 
+		public List<AnimalUIView> GetAllAnimalButtons
+		{
+			get
+			{
+				if (_allAnimalButtonsRef == null)
+				{
+					return null;
+				}
+				return _allAnimalButtonsRef;
+			}
+		}
+
 		private void Start()
+		{
+			InitSpawnButtons();
+			InitSortButtons();
+		}
+
+		private void InitSpawnButtons()
 		{
 			_allAnimalButtonsRef = new List<AnimalUIView>();
 			for (int i = 0; i < AnimalsRef.AllAnimals.Length; i++)
@@ -30,6 +51,15 @@ namespace ZoologyVR.UI
 				AnimalUIView newButton = Instantiate(AnimalUIViewPref, AnimalsButtonsContent);
 				newButton.Init(AnimalsRef.AllAnimals[i].Icon, AnimalsRef.AllAnimals[i].Name, AnimalsRef.AllAnimals[i].AnimalRef, this);
 				_allAnimalButtonsRef.Add(newButton);
+			}
+		}
+
+		private void InitSortButtons()
+		{
+			for (int i = 0; i < (int)AnimalType.MAX; i++)
+			{
+				AnimalSortUIView newButton = Instantiate(AnimalSortButtonPref, AnimalsSortButtonsContent);
+				newButton.Init((AnimalType)i, this);
 			}
 		}
 
@@ -51,7 +81,7 @@ namespace ZoologyVR.UI
 				_allAnimalAnimationsRef.Add(newAnimationUI);
 			}
 
-			DescrptionRef.text = AnimalsRef.GetCurrentAnimal.Description;
+			DescriptionRef.text = AnimalsRef.GetCurrentAnimal.Description;
 		}
 	}
 }
